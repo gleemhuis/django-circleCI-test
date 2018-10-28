@@ -47,7 +47,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python3 manage.py test
+            python3 circle/manage.py test
 
       - store_artifacts:
           path: test-reports
