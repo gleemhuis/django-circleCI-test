@@ -10,7 +10,7 @@ class HomePageView(View):
         response_text = textwrap.dedent('''\
             <html>
             <head>
-                <title>Greetings to the world</title>
+                <title>Greetings to the world !</title>
             </head>
             <body>
                 <h1>Greetings to the world</h1>
